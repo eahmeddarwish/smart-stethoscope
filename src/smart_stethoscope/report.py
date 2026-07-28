@@ -133,7 +133,7 @@ def generate_pdf_report(
     c.drawString(margin, H - 35, "AI Smart Stethoscope -- Diagnosis Report")
     c.setFont("Helvetica", 12)
     c.setFillColorRGB(0.6, 0.7, 0.9)
-    c.drawString(margin, H - 55, "Kuwait College of Science & Technology -- Group 07")
+    c.drawString(margin, H - 55, "By Ahmed Darwish -- engdarwish.com")
     c.setFont("Helvetica", 10)
     c.setFillColorRGB(0.4, 0.5, 0.7)
     c.drawString(margin, H - 72, "AI-generated report. Does not replace professional medical diagnosis.")
@@ -271,7 +271,7 @@ def generate_pdf_report(
     c.setFont("Helvetica", 9)
     c.setFillColorRGB(0.3, 0.4, 0.55)
     c.drawString(margin, margin / 2,
-                 "AI Smart Stethoscope -- KCST Group 07 | AI-generated, does not replace professional diagnosis.")
+                 "AI Smart Stethoscope | AI-generated, does not replace professional diagnosis.")
 
     c.save()
     return out_path

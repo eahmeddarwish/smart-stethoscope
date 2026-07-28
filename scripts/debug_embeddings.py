@@ -6,7 +6,6 @@
 # =========================================
 # Smart Stethoscope — Inference Test
 # بدون tensorflow — embeddings جاهزة
-# Kuwait College of Science & Technology
 # =========================================
 
 import os

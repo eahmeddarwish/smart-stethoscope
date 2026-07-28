@@ -5,8 +5,6 @@
 #!/usr/bin/env python3
 # =========================================
 # Smart Stethoscope — Threshold Sweep v9
-# Kuwait College of Science & Technology
-# Group 07
 #
 # بيجمع كل الـ probabilities الأول
 # ثم يجرب كل threshold ويطبع النتايج

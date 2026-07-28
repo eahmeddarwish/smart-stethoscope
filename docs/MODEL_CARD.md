@@ -26,8 +26,8 @@ echocardiogram isn't the first triage step.
 
 - Standalone diagnosis without human review.
 - Any regulated clinical deployment -- this model has not been validated
-  against a clinical-grade dataset, has not gone through any regulatory
-  review (FDA/CE/etc.), and was built as an academic capstone project.
+  against a clinical-grade dataset, and has not gone through any
+  regulatory review (FDA/CE/etc.).
 - Populations not represented in the training data (see Dataset Card --
   the PASCAL dataset's demographic coverage is not documented in detail
   by the original challenge organizers).

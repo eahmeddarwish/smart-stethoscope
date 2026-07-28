@@ -11,7 +11,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-00C896.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-eahmeddarwish-181717?logo=github)](https://github.com/eahmeddarwish/smart-stethoscope)
 
-**Kuwait College of Science & Technology -- Group 07 Capstone Project**
 **Built by [Ahmed Darwish](mailto:eahmeddarwish@gmail.com)**
 
 [📷 Screenshots](#-demo--عرض-توضيحي) · [📖 Model Card](docs/MODEL_CARD.md) · [🩹 Dataset Fix](docs/DATASET_LABEL_FIX.md) · [⭐ Star on GitHub](https://github.com/eahmeddarwish/smart-stethoscope)
@@ -512,15 +511,13 @@ the dataset (step 3); does not require the trained model.
 | صُمِّمت الواجهة الرسومية خصيصًا لهذه الدقة | شاشة لمسٍ بدقة 800×480 |
 
 **[English]** See the full hardware design, wiring, and requirements
-(functional + financial, ~60 KWD BOM) in the original capstone report,
-`AI-based Smart Digital Stethoscope for Medical Diagnosis.pdf` (KCST
-Group 07, first-semester deliverable).
+(functional + financial, ~60 KWD BOM) in the original design notes,
+`AI-based Smart Digital Stethoscope for Medical Diagnosis.pdf`.
 
 **[العربية]** يمكن الاطلاع على التصميم الكامل للعتاد، والتوصيلات،
 والمتطلبات الوظيفية والمالية (بتكلفةٍ إجماليةٍ تقريبية قدرها 60 دينارًا
-كويتيًا) في تقرير المشروع الأصلي
-`AI-based Smart Digital Stethoscope for Medical Diagnosis.pdf` (تسليم
-الفصل الدراسي الأول، المجموعة 07 -- الكلية الكويتية للعلوم والتكنولوجيا).
+كويتيًا) في ملاحظات التصميم الأصلية
+`AI-based Smart Digital Stethoscope for Medical Diagnosis.pdf`.
 
 ---
 
@@ -594,8 +591,6 @@ Group 07, first-semester deliverable).
 
 </div>
 
-**Kuwait College of Science & Technology, Group 07** -- capstone project team. / **الكلية الكويتية للعلوم والتكنولوجيا، المجموعة 07** -- فريق مشروع التخرّج.
-
 ---
 
 ## 📄 License | الترخيص
@@ -611,6 +606,6 @@ MIT License (with an explicit medical-disclaimer addendum) -- see
 ⭐ **If this project helped you, please give it a star on GitHub!** ⭐
 ⭐ **إن كان هذا المشروع مفيدًا لك، فلا تنسَ منحه نجمةً على GitHub!** ⭐
 
-*Made with ❤️ by Ahmed Darwish -- Kuwait College of Science & Technology, Group 07*
+*Made with ❤️ by Ahmed Darwish*
 
 </div>

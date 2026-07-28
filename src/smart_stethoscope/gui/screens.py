@@ -27,7 +27,7 @@ class LoadingScreen(QWidget):
         lay.setSpacing(30)
         lay.setAlignment(Qt.AlignCenter)
 
-        lay.addWidget(theme.lbl("KCST SMART STETHOSCOPE", theme.CYAN, 28, bold=True, align=Qt.AlignCenter))
+        lay.addWidget(theme.lbl("SMART STETHOSCOPE", theme.CYAN, 28, bold=True, align=Qt.AlignCenter))
         lay.addWidget(theme.lbl("Initializing AI Engine...", theme.WHITE, 14, align=Qt.AlignCenter))
         lay.addWidget(theme.lbl("smart-stethoscope", theme.GRAY, 11, align=Qt.AlignCenter))
 

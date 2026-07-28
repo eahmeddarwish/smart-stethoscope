@@ -5,7 +5,7 @@
 #!/usr/bin/env python3
 """
 Analyze recorded WAV - check for clipping and heart sound quality
-Smart Stethoscope Project - Group 07 KCST
+Smart Stethoscope Project
 """
 
 import numpy as np

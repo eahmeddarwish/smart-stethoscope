@@ -5,7 +5,7 @@
 #!/usr/bin/env python3
 """
 Heart Sound Microphone Diagnostic
-Smart Stethoscope Project - Group 07 KCST
+Smart Stethoscope Project
 Tests microphone capture and shows signal quality
 """
 

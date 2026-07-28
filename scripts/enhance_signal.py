@@ -5,7 +5,7 @@
 #!/usr/bin/env python3
 """
 Heart Sound Signal Enhancement Pipeline
-Smart Stethoscope Project - Group 07 KCST
+Smart Stethoscope Project
 
 Pipeline:
   Record 6s @ 44100 Hz

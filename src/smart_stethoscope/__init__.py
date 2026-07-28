@@ -1,6 +1,6 @@
 """Smart Stethoscope -- AI-assisted heart sound screening.
 
-Kuwait College of Science & Technology, Group 07 capstone project.
+A personal project by Ahmed Darwish (engdarwish.com).
 
 This package is organized as:
     config           -- environment-driven paths & audio pipeline settings

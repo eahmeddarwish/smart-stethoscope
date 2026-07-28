@@ -5,7 +5,6 @@
 #!/usr/bin/env python3
 # =========================================
 # Smart Stethoscope — Full Inference
-# Kuwait College of Science & Technology
 # WAV → VGGish → Classifier → Result
 # =========================================
 

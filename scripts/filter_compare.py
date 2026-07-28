@@ -6,7 +6,7 @@
 """
 Heart Sound Filter Analysis
 Records audio then shows before/after filtering comparison
-Smart Stethoscope Project - Group 07 KCST
+Smart Stethoscope Project
 """
 
 import numpy as np

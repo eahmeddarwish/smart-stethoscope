@@ -56,7 +56,7 @@ class MainWindow(QMainWindow):
     def __init__(self, settings: Settings = SETTINGS):
         super().__init__()
         self.settings = settings
-        self.setWindowTitle("AI Smart Stethoscope -- KCST Group 07")
+        self.setWindowTitle("AI Smart Stethoscope")
         self.showFullScreen()
 
         self.test_mode = True

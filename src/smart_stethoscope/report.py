@@ -96,6 +96,15 @@ def generate_pdf_report(
                 if y < margin + 40:
                     c.showPage()
                     draw_dark_bg()
+                    # showPage() resets ReportLab's graphics state, so the
+                    # background fill call above leaves the *text* color set
+                    # to the dark background color too -- without resetting
+                    # it here, every line drawn after a mid-paragraph page
+                    # break is invisible (same color as the page). This bit
+                    # everyone the first time: no exception, no warning,
+                    # just a silently blank-looking page.
+                    c.setFont("Helvetica", 14)
+                    c.setFillColorRGB(*color)
                     y = H - margin
         if line:
             c.drawString(margin, y, line)
@@ -184,7 +193,13 @@ def generate_pdf_report(
     y = wrap_text(CLINICAL_INFO.get(pred, CLINICAL_INFO["artifact"])["recommendation"], y, color=(0.2, 0.85, 1.0))
 
     # ---- PAGE 2: signal plots ----
-    c.showPage()
+    # wrap_text() above may already have broken to a fresh page internally
+    # (long recommendation text near the bottom of page 1). Only force
+    # another page break if we're not already sitting at the top of one --
+    # otherwise every report gets a stray blank page between the text and
+    # the plots.
+    if y < H - margin - 5:
+        c.showPage()
     draw_dark_bg()
     c.setFillColorRGB(0.08, 0.13, 0.42)
     c.rect(0, H - 65, W, 65, fill=1, stroke=0)

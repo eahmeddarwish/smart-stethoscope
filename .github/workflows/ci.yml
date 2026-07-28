@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install runtime + dev dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy scipy librosa pandas pytest ruff
+
+      - name: Lint (ruff)
+        run: ruff check src tests
+
+      - name: Run unit tests
+        # PySide6/GUI code and inference.py (needs a TFLite runtime + a
+        # real model file) are intentionally excluded from CI -- they're
+        # exercised manually on the target Raspberry Pi hardware. CI only
+        # guards the pure-Python DSP pipeline in signal_pipeline.py.
+        run: |
+          PYTHONPATH=src pytest tests/ -v

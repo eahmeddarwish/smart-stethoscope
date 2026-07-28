@@ -1,0 +1,26 @@
+# Core DSP / ML runtime -- required on every platform
+numpy>=1.24,<2.0
+scipy>=1.10
+librosa>=0.10
+pandas>=2.0
+
+# TFLite inference -- install exactly ONE of these three (in this
+# preference order). ai_edge_litert is Google's actively-maintained
+# successor to tflite_runtime and is what this project was built/tested
+# against. See src/smart_stethoscope/inference.py for the fallback chain.
+ai-edge-litert>=1.0; platform_machine != "unknown"
+# tflite-runtime>=2.14        # alternative if ai-edge-litert is unavailable for your platform
+# tensorflow>=2.14            # heaviest fallback -- only if neither of the above installs
+
+# GUI (Raspberry Pi touchscreen app)
+PySide6>=6.5
+matplotlib>=3.7
+
+# Audio capture / playback (requires PortAudio -- see README hardware setup)
+sounddevice>=0.4.6
+
+# PDF diagnosis report export
+reportlab>=4.0
+
+# Dev / test only
+pytest>=7.4

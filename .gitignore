@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Model artifacts, raw datasets, and generated reports are intentionally
+# NOT tracked in git -- see README "Getting the model" section.
+models/
+reports/
+datasets/
+*.wav
+
+.DS_Store

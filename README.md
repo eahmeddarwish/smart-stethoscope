@@ -216,7 +216,7 @@ join it against our fixed CSVs instead of the original Kaggle ones.
 ## 📷 Demo | عرضٌ توضيحي
 
 <div align="center">
-<img src="assets/gui_main_interface.png" width="48%" alt="Main live/recording screen: BPM, probability bars, demo file preview, pipeline settings" />
+<img src="assets/smart-stethoscope.png" width="48%" alt="Main live/recording screen: BPM, probability bars, demo file preview, pipeline settings" />
 <img src="assets/gui_diagnosis_report.png" width="48%" alt="Diagnosis report screen: waveform, Mel-spectrogram, clinical reasoning" />
 <br/><br/>
 <img src="assets/sample_report_page1.png" width="48%" alt="PDF diagnosis report, page 1: patient info, class probabilities, clinical findings" />
